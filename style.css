@@ -1,0 +1,17 @@
+/* Estils per al contenidor pare (normalment el body) */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.pokemon-card {
+    background-color: #e0e0e0;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    /* Amplada opcional */
+    width: 300px;
+}
