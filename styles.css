@@ -1,0 +1,54 @@
+/* /* Tarjeta principal */
+.pokemon-card {
+  background-color: #acaaaa; /* Gris claro */
+  border-radius: 16px; /* Esquinas redondeadas */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Sombra para profundidad */
+  padding: 24px; /* Espaciado interno */
+  max-width: 300px;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centrado vertical y horizontal */
+}
+
+/* Imagen del Pokémon */
+.pokemon-image {
+  max-width: 100%; /* Tamaño máximo */
+  border-radius: 12px; /* Esquinas redondeadas */
+  margin-bottom: 16px; /* Separación inferior */
+}
+
+/* Información del Pokémon */
+.pokemon-info {
+  background-color: #c8facc; /* Verde claro */
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 12px;
+}
+
+/* Nombre del Pokémon */
+.pokemon-name {
+  font-family: 'Comic Sans MS', cursive, sans-serif; /* Fuente llamativa */
+  font-size: 1.5rem;
+  color: #2c3e50; /* Contraste con el fondo */
+  margin-bottom: 8px;
+}
+
+/* Tipo de Pokémon */
+.pokemon-type {
+  color: #4caf50; /* Verde para tipo Planta */
+  margin-bottom: 8px;
+}
+
+/* Alternativa para tipo Veneno:
+.pokemon-type.veneno {
+  color: #9c27b0; // Morado
+}
+*/
+
+/* Descripción del Pokémon */
+.pokemon-description {
+  font-size: 0.9rem; /* Tamaño de letra más pequeño */
+  color: #7f8c8d; /* Gris claro para distinguir del texto principal */
+}
